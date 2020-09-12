@@ -6,10 +6,10 @@ import Map from './map/Map';
 
 const Header = () => {
     return(
-       <header>
+       <header className= "main-header">
             <Navigation />
             <Logo />
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <svg className="svg-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <polygon fill="white" points="0,100 100,0 100,100"/>
             </svg>
        </header>
