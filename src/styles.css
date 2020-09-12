@@ -94,6 +94,7 @@
   height: 3em;
   margin-left: 1em;
   margin-top: 1em;
+  margin-bottom: 1em;
   font-family: 'Comfortaa', cursive;
   font-size: 1em;
 }
@@ -130,6 +131,7 @@
 #comment{
   width: 34em;
   height: 7em;
+  margin-left: 1em;
 }
 
 #postBtn{
