@@ -11,6 +11,8 @@ import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css';
 //import Marker from './components/Marker';
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
+console.log('token')
+console.log(process.env.REACT_APP_MAPBOX_ACCESS_TOKEN)
 
 const bounds = [
   [-122.8197, 37.1149], // Southwest coordinates
