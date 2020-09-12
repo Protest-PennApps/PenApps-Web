@@ -16,47 +16,49 @@ export default function Event(){
   const { event_name, event_description } = eventData;
 
   return(
-    <div className='container' id='eventPage'>
+    <div>
       <Header />
-      <div id='titleSection'>
-        <h1 id='title'>{ dummyTitle }</h1>
+      <div className='container' id='eventPage'>
+        <div id='titleSection'>
+          <h1 id='title'>{ dummyTitle }</h1>
+        </div>
+        <section className='eventInfo'>
+          <div className='eventPhoto'>
+            <Photo url={ Url } caption='Is this a photo from the event?' time={ 19 }/>
+          </div>
+          <div className='aboutInfo'>
+            <strong><h4 id='aboutEvent'>About this Event</h4></strong>
+            <p id='aboutText'>{ dummyAboutInfo }</p>
+          </div>
+        </section>
+        <h1>Photos</h1>
+        <section className='photoSection'>
+          <p id='viewAll'>View all</p>
+          <p>Take a photo</p>
+        </section>
+        <h1>Comments</h1>
+        <section className='commentSection'>
+          <div className='postComment'>
+            <div className='names'>
+              <h3>Name:</h3>
+              <h3>Comment:</h3>
+            </div>
+            <div className='inputs'>
+              <input />
+              <textarea rows="4" cols="50" id='comment' placeholder='150 words maximum...'></textarea>
+            </div>
+            <div className='button'>
+              <button id='postBtn'>Post</button>
+            </div>
+          </div>
+          <div className='comments'>
+            { comments.map(comment => {
+              return <Comment />
+            }) }
+          </div>
+        </section>
       </div>
-      <section className='eventInfo'>
-        <div className='eventPhoto'>
-          <Photo url={ Url } caption='Is this a photo from the event?' time={ 19 }/>
-        </div>
-        <div className='aboutInfo'>
-          <strong><h4 id='aboutEvent'>About this Event</h4></strong>
-          <p id='aboutText'>{ dummyAboutInfo }</p>
-        </div>
-      </section>
-      <h1>Photos</h1>
-      <section className='photoSection'>
-        <p id='viewAll'>View all</p>
-        <p>Take a photo</p>
-      </section>
-      <h1>Comments</h1>
-      <section className='commentSection'>
-        <div className='postComment'>
-          <div className='names'>
-            <h3>Name:</h3>
-            <h3>Comment:</h3>
-          </div>
-          <div className='inputs'>
-            <input />
-            <textarea rows="4" cols="50" id='comment' placeholder='150 words maximum...'></textarea>
-          </div>
-          <div className='button'>
-            <button id='postBtn'>Post</button>
-          </div>
-        </div>
-        <div className='comments'>
-          { comments.map(comment => {
-            return <Comment />
-          }) }
-        </div>
-      </section>
       {/* footer */}
     </div>
-  )
+  );
 }
