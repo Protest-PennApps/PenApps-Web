@@ -1,14 +1,10 @@
-header {
+.main-header{
     position: relative;
     height: 250px;
     background-image: linear-gradient(#000000, #000000);
   }
   
-  header h1 {
-    color: white;
-  }
-  
-  svg {
+ .svg-image{
     position: absolute;
     bottom: 0;
     width: 100%;
