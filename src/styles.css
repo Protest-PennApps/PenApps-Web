@@ -90,7 +90,7 @@
   border: 1px solid #707070;
   border-radius: 10px;
   opacity: 1;
-  width: 15em;
+  width: 20em;
   height: 3em;
   margin-left: 1em;
   margin-top: 1em;
@@ -128,7 +128,7 @@
 }
 
 #comment{
-  width: 30em;
+  width: 34em;
   height: 7em;
 }
 
