@@ -14,10 +14,10 @@
     }
 }
 
-li{
+.nav-list{
     padding: 20px;
 }
-a{
+.nav{
     color: #ffffff;
     text-decoration: none;
     text-align: left;
