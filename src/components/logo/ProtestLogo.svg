@@ -1,0 +1,6 @@
+<svg id="Component_1_3" data-name="Component 1 – 3" xmlns="http://www.w3.org/2000/svg" width="291.501" height="128.195" viewBox="0 0 291.501 128.195">
+  <path id="Path_1" data-name="Path 1" d="M182.627,0H132.016L125,16.478,120.888.583,0,0V86.763H182.627Z" transform="matrix(0.999, 0.052, -0.052, 0.999, 109.125, 0)" fill="#fff"/>
+  <path id="Path_2" data-name="Path 2" d="M0,0H8V58.088H0Z" transform="translate(197.635 70.107)" fill="#fff"/>
+  <text id="TEST" transform="translate(136.463 15.217) rotate(3)" font-size="40" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.259em"><tspan x="0" y="43">TEST</tspan></text>
+  <text id="PRO" transform="translate(0 15.107)" fill="#fff" font-size="40" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.259em"><tspan x="0" y="43">PRO</tspan></text>
+</svg>

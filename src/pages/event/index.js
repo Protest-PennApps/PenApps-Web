@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Comment from '../../components/comment';
 import Photo from '../../components/photo';
+import Header from '../../components/Header'
 import '../../styles.css';
 
 const dummyTitle = 'Symbolic Protest: the case of the hashtag #BlackLivesMatter | Online talk'
@@ -16,6 +17,7 @@ export default function Event(){
 
   return(
     <div className='container' id='eventPage'>
+      <Header />
       <div id='titleSection'>
         <h1 id='title'>{ dummyTitle }</h1>
       </div>
