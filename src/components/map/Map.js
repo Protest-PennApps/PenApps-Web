@@ -31,6 +31,7 @@ const Map = () => {
       style: "mapbox://styles/mapbox/streets-v11",
       center: [-122.378955, 37.621313],
       zoom: 12,
+      minZoom: 12,
       maxBounds: bounds
 
     });
@@ -39,6 +40,7 @@ const Map = () => {
     map.addControl(new mapboxgl.NavigationControl(), "bottom-right");
   
     map.on('load', function () {
+      map.resize();
       map.addSource('places', {
           'type': 'geojson',
           'data': {
@@ -120,14 +122,23 @@ const Map = () => {
       }
     });
 
-    map.addControl(
+    // disable map rotation using right click + drag
+    map.dragRotate.disable();
+    
+    // disable map rotation using touch rotation gesture
+    map.touchZoomRotate.disableRotation();
+
+    // disable map zoom when using scroll
+    //map.scrollZoom.disable();
+
+    /*map.addControl(
       new mapboxgl.GeolocateControl({
       positionOptions: {
           enableHighAccuracy: true
         },
           trackUserLocation: true
         })
-    );
+    );*/
 
     const geocoder = new MapboxGeocoder({ // Initialize the geocoder
       accessToken: mapboxgl.accessToken, // Set the access token
@@ -155,7 +166,7 @@ const Map = () => {
     });
   
     // Add the geocoder to the map
-    map.addControl(geocoder);
+    map.addControl(geocoder,  "top-left");
 
     // Change the cursor to a pointer when the mouse is over the places layer.
     map.on('mouseenter', 'places', () => {

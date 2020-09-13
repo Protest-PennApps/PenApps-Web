@@ -171,6 +171,80 @@
   font-family: 'Comfortaa', cursive;
 }
 
+.landingPageInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3em;
+  margin-top: 3em;
+  color: white;
+  background-color: black;
+  font: normal normal 16px/24px 'Roboto';
+}
+
+.landingPageInfo .aboutInfo{
+  display: flex;
+}
+
+.landingPageInfo .infoTitle{
+  margin-top: 10px;
+  margin-left: 50px;
+  padding-top: 10px;
+  justify-content: flex-end;
+  width: 65%;
+  line-height: 40px;
+}
+
+.landingPageInfo .eventPhoto{
+  margin-left: 50px;
+}
+
+#secondInfoTitle{
+  margin-top: 10px;
+  margin-left: 100px;
+  padding-top: 10px;
+  justify-content: end;
+  width: 65%;
+  line-height: 40px;
+}
+
+.mapSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3em;
+  margin-top: 3em;
+  color: white;
+  background-color: black;
+  font: normal normal 16px/24px 'Roboto';
+}
+
+.flex-container {
+  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: rgb(0, 0, 0);
+  padding: 5px;
+  width: 150px;
+  height: 100px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
 .upload{
   display: flex;
   align-items: center;
@@ -179,3 +253,4 @@
 #upload{
   margin-left: 1em;
 }
+
