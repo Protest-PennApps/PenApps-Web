@@ -2,7 +2,6 @@ import React from 'react';
 import './styles/Header.css';
 import Logo from './logo/Logo';
 import Navigation from './navigation/Navigation';
-import Map from './map/Map';
 
 const Header = () => {
     return(

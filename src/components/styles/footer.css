@@ -10,6 +10,7 @@ footer {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     line-height: 1.5;
+    font: normal normal 16px/24px 'Roboto';
 }
 footer a {
     text-decoration: none;

@@ -25,7 +25,7 @@ const Footer = () => {
                    <div className='main-item'>
                         <h2 className='ft-tittle'> Find Events </h2>
                         <ul className= 'ft-ul'>
-                                <li><a href="#">Miamim</a></li>
+                                <li><a href="#">Miami</a></li>
                                 <li><a href="#">Los Angeles</a></li>
                                 <li><a href="#">All Cities</a></li>
                         </ul>
