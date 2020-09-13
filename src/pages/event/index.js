@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Comment from '../../components/comment';
 import Photo from '../../components/photo';
 import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 import axios from 'axios';
 
@@ -118,8 +119,9 @@ export default function Event(){
             }) }
           </div>
         </section>
-        {/* footer */}
+        <Footer />
       </div>
+
     </div>
     
   )

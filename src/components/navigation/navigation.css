@@ -1,26 +1,7 @@
-.main-nav{
-    display: flex;
-    list-style: none;
-    font-size: 0.7em;
-    margin: 0;
-    position: absolute;
-    right: 50px;
-}
-
-@media only screen and (max-width: 600px){
-    .main-nav{
-        font-size: 0.5em;
-        padding: 0;
-    }
-}
-
-.nav-list{
-    padding: 20px;
-}
-.nav{
+.a{
     color: #ffffff;
     text-decoration: none;
-    text-align: left;
-    font: normal normal bold 25px/33px 'Roboto';
+    font: normal normal bold 16px/24px 'Roboto';
+    padding: 20px 20px;
+    margin: 10px; 
 }
-
