@@ -182,6 +182,7 @@
   background-color: black;
   font: normal normal 16px/24px 'Roboto';
 }
+
 .landingPageInfo .aboutInfo{
   display: flex;
 }
@@ -191,6 +192,19 @@
   margin-left: 50px;
   padding-top: 10px;
   justify-content: flex-end;
+  width: 65%;
+  line-height: 40px;
+}
+
+.landingPageInfo .eventPhoto{
+  margin-left: 50px;
+}
+
+#secondInfoTitle{
+  margin-top: 10px;
+  margin-left: 100px;
+  padding-top: 10px;
+  justify-content: end;
   width: 65%;
   line-height: 40px;
 }
@@ -208,18 +222,9 @@
 }
 
 .flex-container {
-  /* We first create a flex layout context */
+  
   display: flex;
-  
-  /* Then we define the flow direction 
-     and if we allow the items to wrap 
-   * Remember this is the same as:
-   * flex-direction: row;
-   * flex-wrap: wrap;
-   */
   flex-flow: row wrap;
-  
-  /* Then we define how is distributed the remaining space */
   justify-content: space-around;
   
   padding: 0;

@@ -18,7 +18,8 @@ export default function Home(){
     <div className='container' id='landingPage'>
       <Header />
       <Zipcode />
-
+      <Map />
+      
       <section class='landingPageInfo'>
         <div class='infoTitle'>
           <h1 id='title'>
@@ -46,16 +47,16 @@ export default function Home(){
       </section> 
 
       <section class='landingPageInfo'>
-        <div class='infoTitle'>
+        <div className='eventPhoto'>
+          <Photo url={ Url } caption='Is this a photo from the event?' time={ 19 }/>
+        </div>
+        <div class='infoTitle' id='secondInfoTitle'>
           <h1 id='title'>
               {dummyTitle2}
           </h1>
           <div className='aboutInfo'>
-          <p id= 'aboutText'> {dummyAboutInfo2}</p>
-        </div>
-        </div>
-        <div className='eventPhoto'>
-          <Photo url={ Url } caption='Is this a photo from the event?' time={ 19 }/>
+            <p id= 'aboutText'> {dummyAboutInfo2}</p>
+          </div>
         </div>
       </section>
 
