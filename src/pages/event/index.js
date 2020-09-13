@@ -3,9 +3,7 @@ import Comment from '../../components/comment';
 import Photo from '../../components/photo';
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
-
 import axios from 'axios';
-
 import storage from '../../services/firebase';
 
 import '../../styles.css';
@@ -122,6 +120,5 @@ export default function Event(){
         <Footer />
       </div>
     </div>
-    
   )
 }
