@@ -245,3 +245,11 @@
   text-align: center;
 }
 
+.upload{
+  display: flex;
+  align-items: center;
+}
+
+#upload{
+  margin-left: 1em;
+}
