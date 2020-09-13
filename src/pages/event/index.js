@@ -3,6 +3,10 @@ import Comment from '../../components/comment';
 import Photo from '../../components/photo';
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+<<<<<<< HEAD
+=======
+
+>>>>>>> fae1b4f329769093043a9dca49a48ddcacafa896
 import axios from 'axios';
 import storage from '../../services/firebase';
 
@@ -119,6 +123,10 @@ export default function Event(){
         </section>
         <Footer />
       </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> fae1b4f329769093043a9dca49a48ddcacafa896
     </div>
   )
 }
