@@ -171,3 +171,12 @@ textarea {
 ::placeholder {
   font-family: "Comfortaa", cursive;
 }
+
+.upload{
+  display: flex;
+  align-items: center;
+}
+
+#upload{
+  margin-left: 1em;
+}
