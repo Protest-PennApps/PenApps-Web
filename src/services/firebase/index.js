@@ -3,6 +3,7 @@ require('firebase/storage')
 
 const serviceAccount = require('./secret.json');
 
+
 firebase.initializeApp(serviceAccount);
 
 const storage = firebase.storage();
