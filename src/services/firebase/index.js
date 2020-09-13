@@ -1,7 +1,6 @@
-const firebase = require('firebase/app');
-require('firebase/storage')
-
-const serviceAccount = require('./secret.json');
+import * as firebase from "firebase/app";
+import 'firebase/storage';
+import serviceAccount from './secret.json'
 
 
 firebase.initializeApp(serviceAccount);
